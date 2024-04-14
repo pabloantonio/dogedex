@@ -13,8 +13,35 @@
         android:theme="@style/Theme.Dogedex"
         tools:targetApi="31">
         <activity
+            android:name=".DogDetailComposeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dog_detail_compose"
+            android:theme="@style/Theme.Dogedex">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dogdetail.DogDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dog_detail"
+            android:parentActivityName=".doglist.DogListActivity" />
+        <activity
+            android:name=".doglist.DogListActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Dogedex" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Dogedex">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,5 +49,8 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

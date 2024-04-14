@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Dogedex</string>
+    <string name="female">Female</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="group">Group</string>
+    <string name="male">Male</string>
+    <string name="title_activity_dog_detail">DogDetailActivity</string>
+    <string name="error_showing_dog_not_found">Error showing dog, dog not found</string>
+    <string name="dog_index_format">#%d</string>
+    <string name="dog_life_expectancy_format">%s years</string>
+    <string name="error_general">Error descargando datos</string>
+    <string name="error_servidor_desconocido">Servidor desconocido</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="do_not_have_an_account">No tengo una cuenta</string>
+    <string name="register">Registrarse</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="confirm_password">Confirmar password</string>
+    <string name="email_not_valid">Email is not valid</string>
+    <string name="password_not_empty">Password is not valid</string>
+    <string name="password_not_matches">Passwords does notS match</string>
+    <string name="error_sign_up">Error signing up</string>
+    <string name="error_sign_in">Error sign in</string>
+    <string name="user_already_exists">El usuario ya existe</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="wrong_user_or_password">Wrong user or password</string>
+    <string name="listado_de_perros">listado de perros</string>
+    <string name="settings">settings</string>
+    <string name="take_photos">take photos</string>
+    <string name="log_out">Log Out</string>
+    <string name="error_adding_dog">Error al dar de alta al perro</string>
+    <string name="title_activity_dog_detail_compose">DogDetailComposeActivity</string>
 </resources>
